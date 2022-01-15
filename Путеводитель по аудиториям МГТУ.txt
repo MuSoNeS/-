@@ -1,0 +1,83 @@
+import java.util.Scanner;
+public class Main {
+	public static void main (String[]args){
+        Scanner sc = new Scanner(System.in);
+		int nomber = sc.nextInt();
+		if (nomber >=1&&nomber<=20){
+		System.out.println("Корпус 1 Центральный вход, правое крыло, этаж 0");
+    }
+    if (nomber >=21&&nomber<=68){
+		System.out.println("Корпус 1 Центральный вход, то же здание, этаж 0");
+    }
+    if (nomber >=69&&nomber<=96){
+		System.out.println("Южный корпус, этаж 0");
+    }
+    if (nomber >=101&&nomber<=120){
+		System.out.println("Корпус 1 Центральный вход, правое крыло, этаж 1");
+    }
+    if (nomber >=121&&nomber<=148){
+		System.out.println("Корпус 1 Центральный вход, то же здание, этаж 1");
+    }
+    if (nomber >=153&&nomber<=166){
+		System.out.println("Корпус 1 Центральный вход, левое крыло, этаж 1");
+    }
+
+		if (nomber >=1000&&nomber<=1110){
+		System.out.println("Южный корпус, этаж 1");
+    }
+        if (nomber >=174&&nomber<=200){
+		System.out.println("Южный корпус, этаж 1");
+        }
+        if (nomber >=201&&nomber<=218){
+		System.out.println("Корпус 1 Центральный вход, правое крыло, этаж 2");
+        }
+        if (nomber >=219&&nomber<=259){
+		System.out.println("Корпус 1 Центральный вход, то же здание, этаж 2");
+        }
+        if (nomber >=260&&nomber<=274){
+		System.out.println("Корпус 1 Центральный вхож, левое крыло, этаж 2");
+        }
+        if (nomber >=2000&&nomber<=2124){
+		System.out.println("Южный корпус, этаж 2");
+        }
+        if (nomber >=275&&nomber<=299){
+		System.out.println("Южный корпус, этаж 2");
+        }
+        if (nomber >=300&&nomber<=324){
+		System.out.println("Корпус 1 Центральный вход, левое крыло, этаж 3");
+        }
+        if (nomber >=325&&nomber<=349){
+		System.out.println("Корпус 1 Центральный вход, то же здание, этаж 3");
+        }
+        if (nomber >=350&&nomber<=365){
+		System.out.println("Корпус 1 Центральный вхож, левое крыло, этаж 3");
+        }
+        if (nomber >=366&&nomber<=373){
+		System.out.println("Южный корпус, 3 этаж, следует идти к левому крылу у Центрального входа. Там будет закуток с лестницей в никуда. Там и находятся нужные кабинеты.");
+        }
+        if (nomber >=374&&nomber<=395){
+		System.out.println("Южный корпус, 3 этаж");
+        }
+        if (nomber >=400&&nomber<=421){
+		System.out.println("Корпус 1, Центральный вход, правое крыло, этаж 4");
+        }
+        if (nomber >=422&&nomber<=446){
+		System.out.println("Корпус 1, Центральный вход, то же здание, этаж 4");
+        }
+        if (nomber >=447&&nomber<=456){
+		System.out.println("Корпус 1, Центральный вход, левое крыло, этаж 4");
+        }
+        if (nomber >=457&&nomber<=460){
+		System.out.println("Южный корпус, 3 этаж, следует идти к левому крылу у Центрального входа. Там будет закуток с лестницей в никуда, поднимаемся по ней на 4 этаж Там и находятся нужные кабинеты.");
+        }
+        if (nomber >=462&&nomber<=487){
+		System.out.println("Южный корпус, 4 этаж");
+        }
+        if (nomber ==501){
+		System.out.println("Корпус 1, Центральный вход, правое крыло, этаж 5");
+        }
+        if (nomber >=504&&nomber<=516){
+		System.out.println("Корпус 1, Центральный вход, то же здание, этаж 5");
+        }
+}
+}
